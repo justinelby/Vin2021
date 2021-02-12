@@ -78,13 +78,16 @@ struct SuggestionView: View {
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 138.0, height: 100.0)
             
-            Button("Add Wine") {
-                model.add(wine: Wine.test())
-            }.padding()
-            
-            Button("Sign Out") {
-                model.signOut()
+            HStack{
+                Button("Add Wine") {
+                    model.add(wine: Wine.test())
+                }.padding()
+                
+                Button("Sign Out") {
+                    model.signOut()
+                }
             }
+
         }
         
         // Sign Out sans Future

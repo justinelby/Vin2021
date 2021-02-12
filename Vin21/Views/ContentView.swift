@@ -33,8 +33,7 @@ struct ContentView: View {
                        
 //            Button("Add Wine") {
 //                model.add(wine: Wine.test())
-//            }.padding()
-                     
+//            }.padding()                   
 
             
             TabView{
