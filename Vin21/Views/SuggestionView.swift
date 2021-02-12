@@ -19,12 +19,8 @@ struct SuggestionView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 130.0, height: 50.0)
-            
-//            Text("Suggestions")
-//                .font(.title)
-//            Text("A consommer bientôt")
-//                .font(Font.system(size: 13.5))
-            
+
+    
             HStack(){
                 
                 // On affiche les vins qui doivent être un consommés dans maximum un an ou moins
